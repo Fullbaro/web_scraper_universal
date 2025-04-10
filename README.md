@@ -31,5 +31,5 @@ pip install -r requirements.txt
 2.  `python main.py`
     -   **- -auto:** No GUI. After a starting URL provided, automatically finds all links on page and saves each page in **scraped_pages** folder. **WARNING: Can stuck in infinite loop -> Feel free to cancel run with CTR+C**
     -   **- -no-format:** By default it only saves the text content of page. If no-format provided, all html tags and js code saved.
-3.  In the popup windows provide a starting URL. Later you can navigate to every page and save its content.
-4.  By pressing the SCRAPE button the all data on page gets saved in **scraped_pages** folder.
+3.  In the popup dialog provide a starting URL. Later you can navigate to every page and save its content.
+4.  By pressing the SCRAPE button, all data on page gets saved in **scraped_pages** folder.
